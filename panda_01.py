@@ -130,3 +130,5 @@ print(vendas_vendedor)'''
 '''media_produto = df_venda.groupby('Produto')['Valor'].mean()
 
 print(media_produto)'''
+
+# ----------------------------------
