@@ -112,22 +112,21 @@ print(df_energia)'''
     # 2. Qual é a média de valor por produto?
 # ----------------------------------
 
-import pandas as pd
-
+'''import pandas as pd
 tabela_de_vendas = {
     'Vendedor': ['João', 'Maria', 'João', 'Maria', 'João', 'Maria'],
     'Produto': ['A', 'A', 'B', 'C', 'C', 'B'],
     'Valor': [100, 150, 200, 50, 300, 250]
 }
 
-df_venda = pd.DataFrame(tabela_de_vendas)
+df_venda = pd.DataFrame(tabela_de_vendas)'''
 
 # CALCULANDO O VALOR TOTAL VENDIDO
-vendas_vendedor = df_venda.groupby('Vendedor')['Valor'].sum()
+'''vendas_vendedor = df_venda.groupby('Vendedor')['Valor'].sum()
 
-print(vendas_vendedor)
+print(vendas_vendedor)'''
 
 # CALCULANDO A MÉDIA DE VALOR POR PRODUTO
-media_produto = df_venda.groupby('Produto')['Valor'].mean()
+'''media_produto = df_venda.groupby('Produto')['Valor'].mean()
 
-print(media_produto)
+print(media_produto)'''
